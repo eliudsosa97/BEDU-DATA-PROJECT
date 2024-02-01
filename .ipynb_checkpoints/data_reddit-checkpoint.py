@@ -29,7 +29,7 @@ for post in subreddit.new(limit=100):
     posts.append({
         "title": post.title,
         "text": post.selftext,
-        # Puedes agregar más campos si lo deseas
+        
     })
 
 df = pd.DataFrame(posts)
